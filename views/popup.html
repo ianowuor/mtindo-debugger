@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DebugPilot</title>
+  <script src="popup.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body class="p-4 w-96">
+  <h1 class="text-lg font-semibold mb-4">DebugPilot Logs</h1>
+
+  <div id="errorLogs" class="space-y-2 mb-4 max-h-96 overflow-y-auto">
+    </div>
+
+  <div id="aiExplanation" class="mb-4">
+    </div>
+
+  <button id="clearErrors" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+    Clear Errors
+  </button>
+</body>
+</html>

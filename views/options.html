@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DebugPilot Options</title>
+  <script src="options.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="p-4 w-96">
+  <h1 class="text-lg font-semibold mb-4">DebugPilot Options</h1>
+
+  <div class="mb-4">
+    <label class="block text-sm font-medium text-gray-700">Log Types:</label>
+    <div class="mt-2 space-y-2">
+      <label class="inline-flex items-center">
+        <input type="checkbox" id="logErrors" class="form-checkbox h-5 w-5 text-blue-600">
+        <span class="ml-2 text-sm text-gray-900">Errors</span>
+      </label>
+      <label class="inline-flex items-center">
+        <input type="checkbox" id="logWarnings" class="form-checkbox h-5 w-5 text-yellow-600">
+        <span class="ml-2 text-sm text-gray-900">Warnings</span>
+      </label>
+      <label class="inline-flex items-center">
+        <input type="checkbox" id="logInfo" class="form-checkbox h-5 w-5 text-green-600">
+        <span class="ml-2 text-sm text-gray-900">Info Logs</span>
+      </label>
+    </div>
+  </div>
+
+  <div class="mb-4">
+    <label class="block text-sm font-medium text-gray-700">Advanced:</label>
+    <div class="mt-2 space-y-2">
+      <label class="inline-flex items-center">
+        <input type="checkbox" id="enableAI" class="form-checkbox h-5 w-5 text-purple-600">
+        <span class="ml-2 text-sm text-gray-900">Enable AI Explanations</span>
+      </label>
+      <label class="inline-flex items-center">
+        <input type="checkbox" id="showStackTraces" class="form-checkbox h-5 w-5 text-gray-600">
+        <span class="ml-2 text-sm text-gray-900">Show Stack Traces</span>
+      </label>
+    </div>
+  </div>
+
+  <div id="status" class="text-sm text-green-600 mt-4"></div>
+</body>
+</html>
