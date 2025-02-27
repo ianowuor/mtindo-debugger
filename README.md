@@ -1,22 +1,33 @@
-# DebugPilot - AI-Powered Debugging Assistant
+# Mtindo Debugger
 
-DebugPilot is a Chrome extension designed to enhance your debugging experience by capturing JavaScript errors in the browser and providing a user-friendly interface to view and manage them. It also has the potential to integrate with AI to provide explanations for the errors.
+Mtindo Debugger is a Chrome extension designed to assist developers in quickly identifying and resolving JavaScript errors. It logs errors and unhandled promise rejections directly within the browser, providing essential debugging information in a user-friendly popup.
 
 ## Features
 
--   **Error Capture:** Captures JavaScript errors, unhandled promise rejections, and uncaught exceptions in real-time.
--   **Error Logging:** Stores error details including message, stack trace, URL, timestamp, file, line, and column.
--   **Error Display:** Displays captured errors in a popup window with detailed information.
--   **Error Management:** Allows clearing of error logs.
--   **Real-time Updates:** Automatically updates the error log display when new errors occur.
--   **Batch Processing:** Efficiently sends errors in batches to minimize overhead.
--   **Throttling:** Implements throttling to prevent excessive logging.
--   **Storage Management:** Limits the number of stored logs to prevent excessive storage usage.
-- **AI Integration:** (Future) Will provide AI-powered explanations for errors.
+* **Real-time Error Logging:** Captures JavaScript errors and unhandled promise rejections as they occur.
+* **Local Storage:** Stores error logs locally, ensuring privacy and persistence.
+* **Clear Error Display:** Presents error messages, stack traces, and relevant details in an easy-to-read popup.
+* **Clear Logs Functionality:** Allows users to easily clear the stored error logs.
+* **Cross-Site Error Capture:** By default, captures errors from all websites. (configurable in the manifest.json)
 
 ## Installation
 
-1.  **Clone the Repository:**
-    ```bash
-    git clone https://github.com/ianowuor/mtindo-debugger
-    
+1.  Download or clone this repository.
+2.  Open Google Chrome and navigate to `chrome://extensions/`.
+3.  Enable "Developer mode" in the top right corner.
+4.  Click "Load unpacked" and select the directory containing the extension files.
+
+## Usage
+
+1.  Once installed, the Mtindo Debugger icon will appear in your Chrome toolbar.
+2.  When a JavaScript error or unhandled promise rejection occurs on a webpage, the extension will log it.
+3.  Click the extension icon to open the popup and view the logged errors.
+4.  Use the "Clear Errors" button to clear the logs.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit pull requests or open issues to suggest improvements or report bugs.
+
+## License
+
+This project is licensed under the MIT License.

@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "DebugPilot",
+    "name": "Mtindo Debugger",
     "version": "0.1",
-    "description": "DebugPilot: Log and analyze JavaScript errors within your browser.",
+    "description": "Mtindo Debugger: Log and analyze JavaScript errors within your browser.",
     "permissions": [
       "scripting",
       "activeTab",
