@@ -18,5 +18,5 @@ DebugPilot is a Chrome extension designed to enhance your debugging experience b
 
 1.  **Clone the Repository:**
     ```bash
-    git clone https://github.com/yourusername/debugpilot.git
+    git clone https://github.com/ianowuor/mtindo-debugger
     
